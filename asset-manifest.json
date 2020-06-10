@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/pokemon-idle-clicker/static/css/main.d1b05096.chunk.css",
-    "main.js": "/pokemon-idle-clicker/static/js/main.90b370a5.chunk.js",
-    "main.js.map": "/pokemon-idle-clicker/static/js/main.90b370a5.chunk.js.map",
+    "main.css": "/pokemon-idle-clicker/static/css/main.82e16aa3.chunk.css",
+    "main.js": "/pokemon-idle-clicker/static/js/main.5d6d489c.chunk.js",
+    "main.js.map": "/pokemon-idle-clicker/static/js/main.5d6d489c.chunk.js.map",
     "runtime-main.js": "/pokemon-idle-clicker/static/js/runtime-main.ea702258.js",
     "runtime-main.js.map": "/pokemon-idle-clicker/static/js/runtime-main.ea702258.js.map",
-    "static/js/2.5b44d7da.chunk.js": "/pokemon-idle-clicker/static/js/2.5b44d7da.chunk.js",
-    "static/js/2.5b44d7da.chunk.js.map": "/pokemon-idle-clicker/static/js/2.5b44d7da.chunk.js.map",
+    "static/css/2.761dfba8.chunk.css": "/pokemon-idle-clicker/static/css/2.761dfba8.chunk.css",
+    "static/js/2.6c537b3d.chunk.js": "/pokemon-idle-clicker/static/js/2.6c537b3d.chunk.js",
+    "static/js/2.6c537b3d.chunk.js.map": "/pokemon-idle-clicker/static/js/2.6c537b3d.chunk.js.map",
     "index.html": "/pokemon-idle-clicker/index.html",
-    "precache-manifest.9d4f735777a479e45a0818853b821c17.js": "/pokemon-idle-clicker/precache-manifest.9d4f735777a479e45a0818853b821c17.js",
+    "precache-manifest.3ed73ab703eea6df66c2ac7efba8a112.js": "/pokemon-idle-clicker/precache-manifest.3ed73ab703eea6df66c2ac7efba8a112.js",
     "service-worker.js": "/pokemon-idle-clicker/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/pokemon-idle-clicker/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.5b44d7da.chunk.js.LICENSE.txt": "/pokemon-idle-clicker/static/js/2.5b44d7da.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/pokemon-idle-clicker/static/media/logo.5d5d9eef.svg"
+    "static/css/2.761dfba8.chunk.css.map": "/pokemon-idle-clicker/static/css/2.761dfba8.chunk.css.map",
+    "static/css/main.82e16aa3.chunk.css.map": "/pokemon-idle-clicker/static/css/main.82e16aa3.chunk.css.map",
+    "static/js/2.6c537b3d.chunk.js.LICENSE.txt": "/pokemon-idle-clicker/static/js/2.6c537b3d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ea702258.js",
-    "static/js/2.5b44d7da.chunk.js",
-    "static/css/main.d1b05096.chunk.css",
-    "static/js/main.90b370a5.chunk.js"
+    "static/css/2.761dfba8.chunk.css",
+    "static/js/2.6c537b3d.chunk.js",
+    "static/css/main.82e16aa3.chunk.css",
+    "static/js/main.5d6d489c.chunk.js"
   ]
 }
