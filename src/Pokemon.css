@@ -1,0 +1,7 @@
+.sprite:hover {
+  transform: scale(1.1);
+}
+
+.clickable:active {
+  transform: scale(1); 
+}
