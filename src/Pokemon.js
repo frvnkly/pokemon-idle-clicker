@@ -7,7 +7,8 @@ const Pokemon = ({ data, onClick }) => {
     <img
       className='sprite clickable'
       src={data.sprites.front_default}
-      width='200px'
+      alt={data.name}
+      width='150px'
       onClick={() => { onClick(data) }}
     />
   );

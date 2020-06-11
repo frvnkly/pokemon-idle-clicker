@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useLayoutEffect } from 'react';
 import Pokedex from 'pokedex-promise-v2';
 import 'bulma/css/bulma.css';
 
@@ -20,7 +20,7 @@ const App = () => {
     );
     setStarters(starters);
   };
-  useEffect(() => { fetchStarters() }, []);
+  useLayoutEffect(() => { fetchStarters() }, []);
 
   const selectStarter = (pokemon) => {
     allPokemon.set(0, { id: 0, level: 1, exp: 0, fullyEvolved: false, data: pokemon });
@@ -29,10 +29,12 @@ const App = () => {
 
   return (
     <div className="App container">
-      {active
-        ? <Trainer pokemon={active} allPokemon={allPokemon} />
-        : <Selector pokemon={starters} select={selectStarter} />         
-      }
+      <div className='main card'>
+        {active
+          ? <Trainer pokemon={active} allPokemon={allPokemon} />
+          : <Selector pokemon={starters} select={selectStarter} />         
+        }
+      </div>
     </div>
   );
 };

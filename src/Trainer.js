@@ -1,12 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import Pokedex from 'pokedex-promise-v2';
 
+import './Trainer.css';
 import Pokemon from './Pokemon';
 
 const Trainer = ({ pokemon, allPokemon }) => {
   const P = new Pokedex();
 
   const [species, setSpecies] = useState(pokemon.data);
+  const [fullyEvolved, setFullyEvolved] = useState(pokemon.fullyEvolved);
   const [level, setLevel] = useState(pokemon.level);
   const [exp, setExp] = useState(pokemon.exp);
 
@@ -24,7 +26,7 @@ const Trainer = ({ pokemon, allPokemon }) => {
 
     if (newExp >= 100) {
       const newLevel = level + 1;
-      if (newLevel >= 10) {
+      if (newLevel >= 10 && !fullyEvolved) {
         const currSpecies =
           await P.getPokemonSpeciesByName(species.species.name);        
         const evolutionChain =
@@ -54,7 +56,14 @@ const Trainer = ({ pokemon, allPokemon }) => {
       <p>Click to train</p>
       <Pokemon data={species} onClick={trainPokemon} />
       <p>Lv{level}</p>
-      <p>EXP {exp}</p>
+      <label>EXP</label>
+      <progress
+        className='exp-bar progress is-info'
+        value={exp}
+        max='100'
+      >
+        {exp}
+      </progress>
     </div>
   );
 };

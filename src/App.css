@@ -5,3 +5,10 @@
   font-family: 'Press Start 2P', cursive;
   height: 100vh;
 }
+
+.main {
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
